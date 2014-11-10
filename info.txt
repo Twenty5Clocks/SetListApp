@@ -3,9 +3,11 @@ Views Needed for App
 Main Menu
 SongList(ListView)
 Add Song Form
+Edit Song form
 Song Files View
 Gig List
 Add Gig Form
+Edit Gig form
 Add Songs to gig form
 
 
@@ -14,13 +16,16 @@ Add Songs to gig form
 Databases needed
 -----------------
 SongDB
-(iD, Title, Composer, Key, Length, Year, Style)
+(int iD, string Title,string Composer, string Key,string Length,int Year,string Style)
 
 GigDB
-(iD, Location, Band, Title, Date, Time, Length, Address, Phone)
+(int iD,string Location,string Band,string Title,string Date,string Time,string Length,string Address,string Phone)
 
 SongGigDB
-(iD, SongDB.iD, GigDB.iD)
+(int iD,int SongDB.iD,int GigDB.iD)
+
+SongFilesDB
+(int iD, string fileName, int songID)
 
 
 
@@ -56,4 +61,12 @@ Add template pages that can be written on and stored into the song
 	*Tablature
 	*Sheet music
 	*blank pages
+	
+Minimal Viable Product
+------------------------
+Songlist
+Gig list
+can add files to songs
+can enter 'gig mode'
+
 	
