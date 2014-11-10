@@ -1,0 +1,23 @@
+Views Needed for App
+---------------------
+Main Menu
+SongList(ListView)
+Add Song Form
+Song Files View
+Gig List
+Add Gig Form
+Add Songs to gig form
+
+
+
+
+Databases needed
+-----------------
+SongDB
+(iD, Title, Composer, Key, Length, Year, Style)
+
+GigDB
+(iD, Location, Band, Title, Date, Time, Length, Address, Phone)
+
+SongGigDB
+(iD, SongDB.iD, GigDB.iD)
