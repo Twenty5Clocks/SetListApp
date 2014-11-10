@@ -22,3 +22,38 @@ GigDB
 SongGigDB
 (iD, SongDB.iD, GigDB.iD)
 
+
+
+Adding individual songs
+* In each song need to be able to add documents
+* Pictures, PDFs, Text, Ability to add notes
+* Pick a number of the added documents as the performance pages(These will be the only ones shown during the gig)
+* Maybe adding to songs can be done with the attached camera.
+* Add audio files to song
+
+Setlist maker
+* Be able to browse the songs and add them to the set list
+* Create and store setlists for future use
+* Use the foot controller to change songs
+
+Metronome
+* metronome should be available from anywhere in the app
+* maybe in a corner and when pressed it brings out options to change tempo, tap tempo, start and stop
+* in performance mode maybe it is only visible, not audible.
+
+Sharing
+* Can share songs through app or email
+* can share setlists through app or email.
+* when sharing the sender chooses which documents to share
+	*List(Just shares a list)
+	*All(Shares a list with all files included)
+	*Performance(Shares a list and a copy of the documents labelled as performance)
+
+Bluetooth Pedal
+* can change pages with pedal
+
+Add template pages that can be written on and stored into the song
+	*Tablature
+	*Sheet music
+	*blank pages
+	
